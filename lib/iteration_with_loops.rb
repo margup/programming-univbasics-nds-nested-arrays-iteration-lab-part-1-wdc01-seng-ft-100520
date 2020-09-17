@@ -3,11 +3,11 @@
 def find_even_values(src)
   src = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
   count = 0
-  while count < array_of_arrays[count].length do 
+  while count < src[count].length do 
     inner_count = 0 
-    while inner_count < array_of_arrays[count][inner_count] do
-      if array_of_arrays[count][inner_count].even?
-        p array_of_arrays[count][inner_count]
+    while inner_count < src[count][inner_count] do
+      if src[count][inner_count].even?
+        p src[count][inner_count]
       end
       inner_count += 1
     end
