@@ -1,7 +1,7 @@
 def find_even_values(src)
   
   row_index = 0
-  while row_index < src[row_index].count do 
+  while row_index < src.count do 
     inner_count = 0 
     while inner_count < src[row_index].count do
       if src[row_index][inner_count].even?
