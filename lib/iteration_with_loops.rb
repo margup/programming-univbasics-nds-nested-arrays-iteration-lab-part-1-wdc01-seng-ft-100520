@@ -1,7 +1,7 @@
 def find_even_values(src)
   
   count = 0
-  while count < src[count].length do 
+  while count < src[count].count do 
     inner_count = 0 
     while inner_count < src[count] do
       if src[count][inner_count].even?
