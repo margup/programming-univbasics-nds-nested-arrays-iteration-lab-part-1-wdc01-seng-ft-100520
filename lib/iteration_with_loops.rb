@@ -1,7 +1,7 @@
 
 
 def find_even_values(src)
-  src = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
+  
   count = 0
   while count < src[count].length do 
     inner_count = 0 
